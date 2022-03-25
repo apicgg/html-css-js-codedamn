@@ -1,0 +1,22 @@
+body {
+  background-color: green;
+}
+
+#banner::before {
+  content: attr(data-mytext);
+  width: 400px;
+  height: 400px;
+  background: red;
+}
+
+#banner:hover::first-letter {
+  text-transform: lowercase;
+}
+
+section * {
+  text-decoration: underline;
+}
+
+ul li[data-tag='fav'] {
+  color: red;
+}
