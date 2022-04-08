@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  background: yellow;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 150px 250px;
+}
+
+.grid div {
+  width: 100px;
+  height: 100px;
+}
+
+.grid div:nth-child(2n) {
+  background: red;
+}
+
+.grid div:nth-child(2n + 1) {
+  background: blue;
+}
