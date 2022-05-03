@@ -1,0 +1,27 @@
+body {
+  background-color: pink;
+}
+
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+img {
+  height: auto;
+}
+
+@media screen and (max-width: 1050px) {
+  #container {
+    width: 400px;
+  }
+  #topics-list,
+  main {
+    float: none;
+    width: 100%;
+    padding: 10px 0;
+  }
+  nav ul,
+  nav li {
+    display: block;
+  }
+}
